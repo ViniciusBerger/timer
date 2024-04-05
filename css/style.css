@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(255, 175, 28), rgb(196, 128, 3), rgb(184, 119, 0));
+    background-attachment: fixed;
+}
+
+.board {
+    background-image: linear-gradient(rgb(255, 175, 28), rgb(196, 128, 3), rgb(184, 119, 0));
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15vh;
+    font-family: "orbitron", sans-serif;
+    max-width: 700px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+}
+
+.board > h1 {
+   
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.clock {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#172953 ;
+    min-width: 100px;
+    height: 400px;
+}
+
+
+.minutes {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
+    margin-right: 15px;
+    color: white;
+    margin-left: -30%;
+    min-width: 70px;
+    border: 1px solid black;
+    padding: 15%;
+    padding-top: 30%;
+    background-color: black;
+    
+}
+
+
+.seconds {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
+    margin-right: 15px;
+    background-color: black;
+    color: white;
+    min-width: 70px;
+    border: 1px solid black;
+    padding: 15%;
+    padding-top: 30%;
+
+}
+
+.milseconds{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
+    margin-right: 15px;
+    background-color: black;
+    min-width: 150px;
+    color: white;
+    padding: 10%;
+    padding-top: 30%;
+    padding-right: 1px;
+    border:1px solid black
+}
+
+
+.bracket {
+    margin-right: 10px;
+}
+
+
+
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "orbitron", sans-serif;
+    padding: 10px;
+    gap: 5px;
+    padding-inline: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 7px;
+    margin-left: 7px;
+
+
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+
+#start {
+    color: white;
+    background-color: rgba(204, 133, 0, 0.808)
+}
+
+#start:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+
+}
+
+
+
+#pause:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+
+}
+
+#continue {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "orbitron", sans-serif;
+    padding: 10px;
+    gap: 5px;
+    padding-inline: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: rgba(204, 133, 0, 0.808);
+    color: white;
+
+
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+#continue:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+
+}
+
+#stop {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "orbitron", sans-serif;
+    padding: 10px;
+    gap: 5px;
+    padding-inline: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 7px;
+    margin-left: 7px;
+
+
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+#stop:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+
+}
+
+
+.invisible {
+    display: none;
+}
+
+.info {
+    font-size: large;
+}
